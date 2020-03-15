@@ -14,6 +14,7 @@ export class MyBlankPlugin extends GraphbackPlugin {
     }
 
     public transformSchema(metadata: GraphbackCoreMetadata): GraphQLSchema {
+        return metadata.getSchema();
     }
 
     public createResources(metadata: GraphbackCoreMetadata): void {

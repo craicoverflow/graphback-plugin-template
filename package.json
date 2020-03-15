@@ -1,32 +1,20 @@
 {
   "name": "graphback-plugin-template",
   "version": "0.0.1",
-  "description": "Start template for creating your own Graphback plugin",
+  "description": "Starter template for creating your own Graphback plugin",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "typescript": {
     "definition": "types/index.d.ts"
   },
-  "author": "ephelan@redhat.com",
+  "author": "endaphelan@gmail.com",
   "scripts": {
     "clean": "rimraf coverage dist types",
     "build": "tsc",
     "watch": "tsc -w ",
     "lint": "eslint -t stylish --project \"tsconfig.json\"",
-    "test": "ava",
+    "test": "jest",
     "pretest": "yarn build"
-  },
-  "ava": {
-    "files": [
-      "tests/**/*"
-    ],
-    "compileEnhancements": false,
-    "extensions": [
-      "ts"
-    ],
-    "require": [
-      "ts-node/register"
-    ]
   },
   "engines": {
     "node": ">=10.15.3"
@@ -36,13 +24,16 @@
     "access": "public"
   },
   "devDependencies": {
+    "@types/jest": "25.1.4",
     "@types/node": "12.12.30",
     "ava": "2.4.0",
     "graphql": "14.6.0",
+    "jest": "25.1.0",
     "rimraf": "3.0.2",
+    "ts-jest": "25.2.1",
     "ts-node": "8.6.2",
     "tsutils": "3.17.1",
-    "typescript": "3.8.3"
+    "typescript": "^3.8.3"
   },
   "dependencies": {
     "@graphback/core": "0.11.2",
