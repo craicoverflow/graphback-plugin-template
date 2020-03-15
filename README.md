@@ -1,17 +1,7 @@
-## Graphback CodeGen offix
+# Graphback Plugin Template
 
-<p align="center">
-  <img width="400" src="https://github.com/aerogear/graphback/raw/master/website/static/img/graphback.png">
-  <br/>
-  Auto generate database structure, <br/>
-  GraphQL Resolvers and Queries from GraphQL types 🚀
-</p>
+Template to create your own custom plugins for [Graphback](https://github.com/aerogear/graphback).
 
-**Documentation**: https://graphback.dev
-**Repository**: https://github.com/aerogear/graphback/
+## Creating your own plugin
 
-## Graphback-Codegen-Offix
-
-Offix Code Generator. 
-
-> NOTE: This package is an early alpha and not officially supported by Graphback
+The best place to learn how to create your own plugin is from the [Graphback website](https://graphback.dev/docs/plugins/customplugin).
