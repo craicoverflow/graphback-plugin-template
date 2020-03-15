@@ -1,1 +1,1 @@
-export { MyBlankPlugin as Plugin, MyBlankPluginOptions } from './MyBlankPlugin'
+export { MyBlankPlugin as Plugin } from './MyBlankPlugin'
