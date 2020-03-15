@@ -1,7 +1,7 @@
 {
   "name": "graphback-plugin-template",
-  "version": "0.11.2",
-  "description": "GraphQL-Code-Generator offix plugin",
+  "version": "0.0.1",
+  "description": "Start template for creating your own Graphback plugin",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "typescript": {
