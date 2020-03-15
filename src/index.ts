@@ -1,0 +1,1 @@
+export { MyBlankPlugin as Plugin, MyBlankPluginOptions } from './MyBlankPlugin'
